@@ -1,4 +1,5 @@
 // App de exemplo do lvserv: responde na porta configurada, sem dependências.
+// teste commit event
 import { createServer } from "node:http";
 
 const port = Number(process.env.PORT ?? 3000);
